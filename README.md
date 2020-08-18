@@ -83,7 +83,7 @@
     3
    / \
   9  20
-	/  \
+    /  \
    15   7
 ```
 
@@ -306,31 +306,155 @@ p = ".*"
 
 [23链表中环的入口](https://github.com/Cenita/SwordPointOffer/blob/master/note/23链表中环的入口.md)
  
+**题目描述**
+>如果一个链表中包含环，如何找出环的入口结点？
 
 
+**示例**
+>1->2->3->4->5->6，然后6指向3形成环
+>输出3为环入口
 
-
-
-
-
-
-
-
-
+----
 [24翻转链表](https://github.com/Cenita/SwordPointOffer/blob/master/note/24翻转链表.md)
   
+**题目描述**
+>定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
+
+**示例**
+>**输入:** 1->2->3->4->5->NULL
+**输出:** 5->4->3->2->1->NULL
+
+---
 [25合并两个排序的链表](https://github.com/Cenita/SwordPointOffer/blob/master/note/25合并两个排序的链表.md)
   
-[28对称的二叉树](https://github.com/Cenita/SwordPointOffer/blob/master/note/28对称的二叉树.md)
+
+**题目描述**
+>输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
+
+**输入输出**
+>输入：1->2->4, 1->3->4
+输出：1->1->2->3->4->4
+
+----
+
+
+
+[26树的子结构](https://github.com/Cenita/SwordPointOffer/blob/master/note/26树的子结构.md)
   
+
+**题目描述**
+>输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
+B是A的子结构， 即 A中有出现和B相同的结构和节点值。
+
+**输入输出**
+>输入：A = [1,2,3], B = [3,1]
+输出：false
+
+---
+[27二叉树的镜像](https://github.com/Cenita/SwordPointOffer/blob/master/note/27二叉树的镜像.md)
+
+**题目描述**
+>请完成一个函数，输入一个二叉树，该函数输出它的镜像。
+
+**输入输出**
+
+		   4  
+		  / \  
+		 2   7  
+		/ \ / \  
+		1 3 6 9
+
+		   4  
+		  / \  
+		 7   2  
+		/ \ / \  
+		9 6 3 1
+
+
+---
+
+[28对称的二叉树](https://github.com/Cenita/SwordPointOffer/blob/master/note/28对称的二叉树.md)
+
+**题目描述**
+>请实现一个函数，用来判断一棵二叉树是不是对称的。如果一棵二叉树和它的镜像一样，那么它是对称的。
+例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
+
+	    1
+	   / \
+	  2   2
+	 / \ / \ 
+	3  4 4  3
+>但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的:
+
+	   1
+	   /\ 
+	  2  2
+	   \  \ 
+	   3   3
+
+**输入输出**
+>输入：root = [1,2,2,3,4,4,3]
+输出：true
+
+---
+
 [29顺时针打印矩阵](https://github.com/Cenita/SwordPointOffer/blob/master/note/29顺时针打印矩阵.md)
   
+**题目描述**
+>输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
+
+**输入输出**
+>输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
+输出：[1,2,3,6,9,8,7,4,5]
+
+>输入：matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+输出：[1,2,3,4,8,12,11,10,9,5,6,7]
+
+---
 [30包含Min函数的栈](https://github.com/Cenita/SwordPointOffer/blob/master/note/30包含Min函数的栈.md)
-  
+
+**题目描述**
+>定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。
+
+---
 [31栈的压入弹出序列](https://github.com/Cenita/SwordPointOffer/blob/master/note/31栈的压入弹出序列.md)
   
+**题目描述**
+>输入两个整数序列，第一个序列表示栈的压入顺序，请判断第二个序列是否为该栈的弹出顺序。假设压入栈的所有数字均不相等。例如，序列 {1,2,3,4,5} 是某栈的压栈序列，序列 {4,5,3,2,1} 是该压栈序列对应的一个弹出序列，但 {4,3,5,1,2} 就不可能是该压栈序列的弹出序列。
+
+**输入输出**
+>输入：pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
+输出：true
+解释：我们可以按以下顺序执行：
+push(1), push(2), push(3), push(4), pop() -> 4,
+push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
+
+>输入：pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
+输出：false
+解释：1 不能在 2 之前弹出。
+
+
+---
 [32从上到下打印二叉树](https://github.com/Cenita/SwordPointOffer/blob/master/note/32从上到下打印二叉树.md)
-  
+**题目描述**
+>从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
+
+**样例**
+>给定二叉树: [3,9,20,null,null,15,7],
+
+	    3
+	    /\ 
+	   9  20
+	     / \ 
+	    15 7
+>返回：
+[3,9,20,15,7] 
+
+
+---
+
+
+
 [32-2分行从上到下打印二叉树](https://github.com/Cenita/SwordPointOffer/blob/master/note/32-2分行从上到下打印二叉树.md)
   
 [32-3之形从上到下打印二叉树](https://github.com/Cenita/SwordPointOffer/blob/master/note/32-3之形从上到下打印二叉树.md)
@@ -340,7 +464,7 @@ p = ".*"
 [34二叉树中和为某一值的路径](https://github.com/Cenita/SwordPointOffer/blob/master/note/34二叉树中和为某一值的路径.md)
   
 [35复杂链表的复制](https://github.com/Cenita/SwordPointOffer/blob/master/note/35复杂链表的复制.md)
-  
+ 
 [36二叉搜索树与双向链表](https://github.com/Cenita/SwordPointOffer/blob/master/note/36二叉搜索树与双向链表.md)
   
 [37序列化二叉树](https://github.com/Cenita/SwordPointOffer/blob/master/note/37序列化二叉树.md)
