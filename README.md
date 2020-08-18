@@ -1,10 +1,14 @@
 ## 剑指Offer 算法题整理汇总
 
-
-**原始Java代码**
+**简介**
+剑指Offer中所有的面试题，建议一边看书一边来LeetCode上做
+本算法题汇总只提炼重要的解析，如果希望明白其中的算法思路建议看LeetCode或书上的解析
+适合复习剑指Offer的同学，简要指出其知识点
+如果你需要Java代码，可访问源码地址Clone下源码。
 [源码](https://github.com/Cenita/SwordPointOffer/tree/master/code)
 
-**剑指Offer解析**
+**题目解析**
+  
 [03数组中重复的数字](https://github.com/Cenita/SwordPointOffer/blob/master/note/03%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md)
   
 [04二维数组中的查找](https://github.com/Cenita/SwordPointOffer/blob/master/note/04%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md)
