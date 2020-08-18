@@ -2,8 +2,11 @@
 
 **简介**
 剑指Offer中所有的面试题，建议一边看书一边来LeetCode上做
+
 本算法题汇总只提炼重要的解析，如果希望明白其中的算法思路建议看LeetCode或书上的解析
+
 适合复习剑指Offer的同学，简要指出其知识点
+
 如果你需要Java代码，可访问源码地址Clone下源码。
 [源码](https://github.com/Cenita/SwordPointOffer/tree/master/code)
 
