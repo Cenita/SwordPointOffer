@@ -232,7 +232,6 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 **题目描述**
 >输入数字 `n`，按顺序打印出从 1 到最大的 n 位十进制数。比如输入 3，则打印出 1、2、3 一直到最大的 3 位数 999。
 
----
 **示例**
 >输入: n = 1
 输出: [1,2,3,4,5,6,7,8,9]
@@ -596,7 +595,7 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 
 
 
-
+---
 [36二叉搜索树与双向链表](https://github.com/Cenita/SwordPointOffer/blob/master/note/36二叉搜索树与双向链表.md)
   
 **题目描述**
@@ -1402,7 +1401,6 @@ class MedianFinder {
 例如，给定如下二叉搜索树:  root = [6,2,8,0,4,7,9,null,null,3,5]
 ![输入图片描述](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/binarysearchtree_improved.png)
 
----
 **输入输出**
 ```java
 输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
@@ -1424,7 +1422,6 @@ class MedianFinder {
 例如，给定如下二叉树:  root = [3,5,1,6,2,0,8,null,null,7,4]
 ![输入图片描述](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/15/binarytree.png)
 
----
 **输入输出**
 ```java
 输入: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
